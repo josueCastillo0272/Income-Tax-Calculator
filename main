@@ -1,0 +1,13 @@
+#Initialize variables by asking for gross income and dependents:
+grossIncome = float(input("Enter the gross income: " ))
+dependents = int(input("Enter the number of dependents: " ))
+
+# Calculate the income tax
+incomeTax = ((grossIncome - 10000) - (dependents*3000)) * 0.2
+
+# Print the income tax to the user after calculation. Separator is a "$"
+print("The income tax is ", incomeTax, sep = "$")
+
+
+
+
